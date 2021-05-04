@@ -307,7 +307,7 @@ label { }
 
 .cta-section { 
     padding-top: 140px; padding-bottom: 140px; 
-    background: linear-gradient(rgba(30, 28, 24, 0.8), rgba(30, 28, 24, 0.8)), rgba(30, 28, 24, 0.8) url(../images/cta-section-img.jpg) no-repeat center; background-size: cover; }
+    background: linear-gradient(rgba(30, 28, 24, 0.8), rgba(30, 28, 24, 0.8)), rgba(30, 28, 24, 0.8) url(../images/indoors.jpg) no-repeat center; background-size: cover; }
 .cta-caption {  }
 .cta-title { font-size: 36px; color: #fff; line-height: 58px; font-weight: 600; margin-bottom: 10px; letter-spacing: -1px; }
 .cta-text { font-size: 18px; color: #fff; margin-bottom: 30px; }
