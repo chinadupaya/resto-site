@@ -1,0 +1,31 @@
+.menu-images-container{
+    background-color: black;
+}
+.menu-category{
+    color:white;
+    padding:2em;
+    font-family: Roboto;
+}
+div.menu-category> div.container{
+    color:white;
+}
+.menu-item-container{
+    padding-top: 1em;
+    font-weight: 400;
+}
+.menu-item-price{
+    color:orange;
+}
+.menu-category-title{
+    font-size: 2em;
+    font-weight: 700;
+}
+.menu-item-label > ul{
+    font-size: small;
+    font-weight:300;
+}
+
+.menu-item-img{
+    
+    border: 2px solid white ;
+}
