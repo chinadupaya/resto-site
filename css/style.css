@@ -32,7 +32,7 @@ Author:             Jitu Chauhan
         5.4 Page Header
 
         -----------------------
-6. Slider
+6. UX
         6.1 Slider
         -----------------------
 7. Content
@@ -68,7 +68,9 @@ Author:             Jitu Chauhan
     font-style: normal;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body { font-size: 16px;
     background-color: #fff;
     color: #5d5c59;
@@ -360,6 +362,12 @@ label { }
 .time-text { }
 .call-block, .mail-block, .time-block { }
 
+.navbar-content.scrolled {
+    background-color: rgba(255, 255, 255, 0) !important;
+    transition: background-color 200ms linear;
+    color:black !important;
+}
+
 /*--------------------------
     5.2 Navigations Regular
    ----------------------------*/
@@ -368,7 +376,7 @@ label { }
 .hero-title { font-size: 80px; color: #fff; line-height: 58px; font-family:"playbillregular"; margin-bottom: 30px; color: red;}
 .hero-text { font-size: 18px; color: #fff; margin-bottom: 30px; }
 .navigation { float: right; }
-.is-sticky .header {border-bottom: 1px solid #eae7e2;}
+/* .is-sticky .header {border-bottom: 1px solid #eae7e2;} */
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 #navigation #menu-button { display: none; }
@@ -458,8 +466,13 @@ label { }
 .page-breadcrumb .breadcrumb { background-color: transparent; margin-bottom: 0px; font-size: 12px; text-transform: uppercase; }
 
 /*-----------------------------------
-    6. Slider 
+    6. UX 
 -------------------------------------*/
+
+/* 6.2 Animations */
+html.sr .load-hidden {
+    visibility: hidden;
+}
 
 /*-----------------------------------
 7. Content 
