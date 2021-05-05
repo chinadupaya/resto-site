@@ -252,7 +252,7 @@ label { }
 4.4 Background & Block color 
 ----------------------------------*/
 .bg-light { background-color: #f4f1ec; }
-.bg-primary { background-color: #aa9144; }
+.bg-primary { background-color: #c5ae46; }
 .bg-default { background-color: #f4f1ec; }
 .bg-white { background-color: #fff; }
 .outline { border: 1px solid #e5e7ec; }
@@ -786,7 +786,7 @@ opacity: .5; }
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
      .navigation { float: none; }
-     .hero-title {font-size: 25px; line-height: 40px;}
+     .hero-title {font-size: 50px; line-height: 40px;}
      .hero-section {padding-top: 50px; padding-bottom: 50px;}
      .comment-info {padding-left: 100px;}
      .cta-title {font-size: 26px; line-height: 40px;}
@@ -802,8 +802,11 @@ opacity: .5; }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+        .nav-img{
+            display: none;
+        }
      .navigation { float: none; }
-     .hero-title {font-size: 25px; line-height: 40px;}
+     .hero-title {font-size: 50px; line-height: 40px;}
      .hero-section {padding-top: 50px; padding-bottom: 50px;}
      .comment-info {padding-left: 100px;}
      .cta-title {font-size: 26px; line-height: 40px;}
@@ -814,7 +817,7 @@ opacity: .5; }
      .page-caption {padding: 80px 0px;}
      .childern .comment-info {padding-left: 90px;}
      .childern {padding-left: 0px; list-style: none;}
-
+     .food-card{margin-bottom: 1em;}
     }
 
     /* Extra Small Devices, Phones */ 
@@ -831,7 +834,7 @@ opacity: .5; }
      .page-caption {padding: 80px 0px;}
      .childern .comment-info {padding-left: 90px;}
      .childern {padding-left: 0px; list-style: none;}
-
+     .food-card{margin-bottom: 1em;}
     }
 
     /* Custom, iPhone Retina */ 
